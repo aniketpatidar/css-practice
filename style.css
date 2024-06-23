@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2D1E6B;
+  font-family: 'Poppins', 'sans-serif';
+  box-sizing: border-box;
+}
+
+#navbar {
+  margin: 0 auto;
+  width: 80%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+#logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#logo-container > img {
+  width: 25px;
+  height: 25px;
+}
+
+#nav-items {
+  display: flex;
+  width: 500px;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 300;
+}
+
+#nav-items li {
+  cursor: pointer;
+}
+
+#main-header {
+  display: flex;
+  justify-content: flex-end;
+  color: #fff;
+  position: relative;
+}
+
+#main-header .left {
+  position: absolute;
+  width: 30%;
+  top: 100px;
+  left: 10%;
+}
+
+#main-header .left .big-text {
+  font-size: 70px;
+  color: #fff;
+  letter-spacing: normal;
+  font-weight: 700;
+}
+
+.gradient-text {
+  color: #ff00f2
+}
+
+#main-header .left p {
+  color: #fff;
+  letter-spacing: normal;
+  font-weight: 700;
+}
+
+#main-header .left #overview {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+  gap: 15px;
+}
+
+#main-header .left #overview .overview-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-header .left #overview .overview-items h4 {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+#main-header .left #overview .overview-items p {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+
+#main-header .right {
+  width: 100%;
+  z-index: -10;
+  mix-blend-mode: color-dodge;
+}
+
+#main-header .right img {
+  width: 100%;
+  height: 80vh;
+  margin-top: -10px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 0 10px;
+  transform: skewX(-15deg);
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #7d63f1;
+}
+
+.btn1 {
+  background: rgb(45, 30, 107);
+  background: linear-gradient(45deg, #7d63f1 6%, #2c2c94 28%, #f805d0 97%);
+}
+
+.bend {
+  display: flex;
+  width: auto;
+  margin: auto;
+  justify-content: space-around;
+  background: linear-gradient(45deg, #7d63f1 6%, #2c2c94 28%, #f805d0 97%);;
+  box-shadow: 0 80px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  align-items: center;
+  padding: 10px 15px;
+  /* margin-bottom: 100px; */
+  color: #fff;
+  /* transform: rotate(-1deg); */
+  border: 1px solid #ffffff40;
+  font-weight: 700;
+  font-size: 30px;
+}
